@@ -26,7 +26,7 @@ public class ContactController {
     
     @GetMapping("/greet")
     public String hello(){
-        return "Hello world: this is contact api";
+        return "Hi dunya : this is contact api";
     }
     @GetMapping
     public ResponseEntity<ApiResponse<List<Contact>>> getAllContacts(){
